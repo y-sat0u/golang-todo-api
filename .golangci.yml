@@ -1,0 +1,10 @@
+linters:
+  enable:
+    - govet
+    - gocyclo
+    - misspell  
+  settings:
+    gocyclo:
+      min-complexity: 30
+    misspell:
+      locale: US
